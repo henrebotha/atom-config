@@ -1,0 +1,64 @@
+"*":
+  alignment: {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "7ffa3c55-5c4c-4550-8e27-c6df0dc9dd4e"
+    ruby:
+      default_beautifier: "Ruby Beautify"
+      rubocop_path: "/Users/leaply/.rbenv/shims/rubocop"
+  "atom-scrolloff": {}
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+  core:
+    disabledPackages: [
+      "symbol-gen"
+      "vim-mode"
+      "linter-sass-lint"
+    ]
+    ignoredNames: [
+      "node_modules"
+      ".svg"
+    ]
+    themes: [
+      "one-dark-ui"
+      "oceanic-next"
+    ]
+  editor:
+    fontFamily: "\"Fira Code\""
+    fontSize: 12
+    invisibles: {}
+    preferredLineLength: 100
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "91d29a53-a71b-f942-ee99-1c7853ff948f"
+  "find-and-replace":
+    liveSearchMinimumCharacters: 1
+    scrollToResultOnLiveSearch: true
+  "fuzzy-finder":
+    searchAllPanes: true
+    useAlternateScoring: false
+  linter:
+    showErrorPanel: false
+  "linter-rubocop":
+    command: "/Users/leaply/.rbenv/shims/rubocop"
+  "linter-ruby": {}
+  "linter-sass-lint": {}
+  "one-dark-ui":
+    layoutMode: "Compact"
+  "rails-model-schema":
+    showImmediately: false
+  "split-diff":
+    ignoreWhitespace: true
+    syncHorizontalScroll: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
+  zentabs:
+    neverCloseUnsaved: true
+".table.text":
+  editor:
+    preferredLineLength: 100

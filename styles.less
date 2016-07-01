@@ -1,0 +1,34 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+.tree-view {
+
+}
+
+atom-text-editor {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-weight: 400;
+  // font-family: "Menlo";
+}
+
+atom-text-editor .cursor {
+
+}
+
+atom-text-editor {
+  // fira code
+  text-rendering: optimizeLegibility;
+}
+
+atom-text-editor::shadow .string.quoted,
+atom-text-editor::shadow .string.regexp {
+  // fira code
+  -webkit-font-feature-settings: "liga" off, "calt" off;
+}
